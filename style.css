@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ /* #home {
+    background-image: url(imagens/laptop-1842297_960_720.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    height: 100vh; 
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+ } */
+
+header{
+    background-color: rgb(241, 247, 247);   
+}
+
+main{
+    background-color: rgb(150, 141, 141);
+    background-image: url(imagens/laptop-1842297_960_720.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    height: 100vh; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+}
+h2{
+    font-size: 1em;
+   
+}
+
+p{
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+body{
+    display: grid;
+    grid-template-rows: 4rem auto;
+    height: 100vh;
+}
